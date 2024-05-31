@@ -14,14 +14,14 @@
 
 /* --------------------HEADER-------------------- */
 .header {
-  min-block-size: 668px;
+  block-size: 100vh;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
   align-items: center;
 }
 
 .decorated-zone {
-  position: relative; 
+  position: relative;
 }
 
 /* верхний правый уголок*/
@@ -123,7 +123,7 @@
   font-family: var(--main-font, sans-serif);
   font-weight: bold;
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  line-height: 82.5%;;
+  line-height: 82.5%;
   color: var(--header-title-color, #DB00FF);
   text-shadow: 4px 4px 0 var(--accent-color);
   display: grid;
@@ -273,7 +273,7 @@
 
 /* --------------------FOOTER-------------------- */
 .footer {
-  min-block-size: 668px;
+  block-size: 100vh;
   display: grid;
   align-items: center;
   justify-content: center;
@@ -300,28 +300,28 @@
   }
 
   .header {
-    min-block-size: 984px;
+    block-size: 100vh;
   }
 
   .header__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     margin-block-start: 0;
-    margin-block-end: 0;
+    margin-block-end: 35px;
     margin-inline-start: -20px;
   }
 
   .header__subtitle {
     justify-self: flex-end;
     width: clamp(22.75rem, -1.0625rem + 49.6094vw, 30.6875rem);
-    margin: 0;
+    margin-block-start: -40px;
   }
 
   .decorated-zone::after {
-    inset-block-end: 0;
+    inset-block-end: 38px;
   }
 
   .content {
-    margin-block-start: calc(var(--sections-gap, 80px) + 42px);
+    margin-block-start: var(--sections-gap, 80px);
     padding-inline-start: 0;
     padding-inline-end: 0;
     gap: 80px;
@@ -333,7 +333,7 @@
     gap: 20px;
   }
 
-  .content__section:nth-child(2) .content__section-title{
+  .content__section:nth-child(2) .content__section-title {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
@@ -387,17 +387,18 @@
   }
 
   .footer {
-    min-block-size: 980px;
+    block-size: 100vh;
   }
 
   .footer__title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    margin-block-end: 40px;
   }
 }
 
 @media (width >=1024px) {
   .header {
-    min-block-size: 728px;
+    block-size: 100vh;
   }
   .header__theme-menu {
     align-self: flex-start;
@@ -421,7 +422,7 @@
   }
 
   .footer {
-    min-block-size: 728px;
+    block-size: 100vh;
   }
   
 }
