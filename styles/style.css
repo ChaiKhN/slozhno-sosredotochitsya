@@ -1,7 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-body {
-  margin: 0;
-}
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
@@ -12,6 +9,7 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+  padding: var(--padding, 10px);
 }
 
 /* --------------------HEADER-------------------- */
@@ -141,7 +139,7 @@ body {
   line-height: 130%;
   color: var(--subtitle-color, #000028);
   margin-block-start: 0;
-  margin-block-end: 34px;
+  margin-block-end: 40px;
 }
 
 /* яркая подложка текста*/
@@ -161,8 +159,6 @@ body {
   font-size: 18px;
   line-height: 130%;
   margin-block-start: calc(var(--sections-gap, 50px) - 10px);
-  padding-inline-start: 3px;
-  padding-inline-end: 3px;
 }
 
 .content__section {
@@ -291,9 +287,7 @@ body {
   color: var(--header-title-color, #DB00FF);
   text-shadow: 2px 2px 0 var(--accent-color);
   display: grid;
-  margin-block-start: 0;
-  margin-block-end: 13px;
-  margin: 0;
+  margin-block-end: 15px;
 }
 
 @media (width >= 768px) {
