@@ -1,6 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 body {
-  margin: 0px;
+  margin: 0;
 }
 
 .page {
@@ -13,6 +13,7 @@ body {
   background-size: cover;
   background-attachment: fixed;
   padding: var(--padding, 10px);
+  width: 100%;
 }
 
 /* --------------------HEADER-------------------- */
