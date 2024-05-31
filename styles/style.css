@@ -1,4 +1,7 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
+body {
+  margin: 0px;
+}
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
@@ -272,6 +275,7 @@
 /* --------------------FOOTER-------------------- */
 .footer {
   block-size: 100vh;
+  min-block-size: 668px;
   display: grid;
   align-items: center;
   justify-content: center;
