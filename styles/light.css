@@ -22,6 +22,7 @@
   --padding: 10px;
   --sections-gap: 40px;
   --images-gap: 10px;
+  --hover-button: rgba(255, 0, 112, 0.4);
 }
 .page.theme_light .header__decorated-text {
     display: none;
@@ -44,9 +45,10 @@
     --padding: 10px;
     --sections-gap: 40px;
     --images-gap: 10px;
+    --hover-button: rgba(255, 0, 112, 0.4);
   }
 
-  .page.theme_auto .header__decorated-text {
-            display: none;
+  .header__decorated-text {
+    display: none;
   }
 }
