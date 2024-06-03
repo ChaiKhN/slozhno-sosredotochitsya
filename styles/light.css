@@ -22,7 +22,7 @@
   --padding: 10px;
   --sections-gap: 40px;
   --images-gap: 10px;
-  --hover-button: rgba(255, 0, 112, 0.4);
+  --hover-button: rgba(50, 49, 45, 0.4);
 }
 .page.theme_light .header__decorated-text {
     display: none;
@@ -45,7 +45,7 @@
     --padding: 10px;
     --sections-gap: 40px;
     --images-gap: 10px;
-    --hover-button: rgba(255, 0, 112, 0.4);
+    --hover-button: rgba(50, 49, 45, 0.4);
   }
 
   .header__decorated-text {

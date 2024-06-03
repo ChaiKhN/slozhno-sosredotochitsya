@@ -22,7 +22,7 @@
   --sections-gap: 40px;
   --images-gap: 10px;
   --bg-image: url(../images/cover-image-dark.png);
-  --hover-button: rgba(50, 49, 45, 0.4);
+  --hover-button: rgba(255, 0, 112, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -40,6 +40,6 @@
     --sections-gap: 40px;
     --images-gap: 10px;
     --bg-image: url(../images/cover-image-dark.png);
-    --hover-button: rgba(50, 49, 45, 0.4);
+    --hover-button: rgba(255, 0, 112, 0.4);
   }
 }
